@@ -1,0 +1,34 @@
+@import url(sbanner.css);
+@import url(menu.css);
+@import url(lixo.css);
+@import url(meio.css);
+@import url(historias.css);
+@import url(reduzir.css);
+@import url(reutilizar.css);
+@import url(recicle.css);
+
+:root {
+    --fonte: "montserrat";
+    --fundo: #fffbe9;
+    --cabcor: #30391c;
+    --quadrado:
+}
+
+body {
+    font-family: var(--fonte);
+    background-color: var(--fundo);
+}
+
+a {
+    text-decoration: none;
+}
+
+body, html {
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    }
+
+
+body {
+    overflow-y: hidden;
+}

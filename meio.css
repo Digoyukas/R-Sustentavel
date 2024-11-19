@@ -1,0 +1,133 @@
+.meio  {
+    text-align: center;
+    padding: 0vw 10vw 0 10vw;
+
+}
+
+.reduzir-titulo {
+    padding-top: 18vw;
+    position: relative;
+    font-weight: 900;
+    font-size: 8vw;
+    color: var(--cabcor);
+}
+.subred {
+    font-size: 3.5vw;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--cabcor);
+}
+.redtxt {
+    font-size: 3vw;
+    font-weight: 500;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    color: var(--cabcor);
+}
+.leiared {
+    color: var(--fundo);
+    background-color: var(--cabcor);
+    padding: 1vw 3vw 1vw 3vw;
+    border-radius: 10vw 10vw 10vw 10vw;
+    position: relative;
+    font-size: 3vw;
+}
+
+.reutilizar-titulo{
+    padding-top: 18vw;
+    position: relative;
+    font-weight: 900;
+    font-size: 8vw;
+    color: var(--cabcor);
+}
+.subreu{
+    font-size: 3.5vw;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--cabcor);
+}
+
+
+.txtreu{
+    font-size: 3vw;
+    font-weight: 500;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    color: var(--cabcor);
+
+}
+.txtreu::before {
+    content: "";
+    position: absolute;
+    top: 131vw;
+    bottom: 0vw; 
+    left: 0vw;
+    right: 0vw;
+    background-image: url(img/weu.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    z-index: -1;
+    padding-bottom: 100vw;
+}
+
+.leiareu {
+    color: var(--fundo);
+    background-color: var(--cabcor);
+    padding: 1vw 3vw 1vw 3vw;
+    border-radius: 10vw 10vw 10vw 10vw;
+    font-size: 3vw;
+}
+
+.reciclar-titulo {
+    padding-top: 18vw;
+    position: relative;
+    font-weight: 900;
+    font-size: 8vw;
+    color: var(--cabcor);
+}
+.subrec{
+    font-size: 3.5vw;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--cabcor);
+}
+.txtrec{
+    font-size: 3vw;
+    font-weight: 500;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    color: var(--cabcor);
+}
+.leiarec {
+    color: var(--fundo);
+    background-color: var(--cabcor);
+    padding: 1vw 3vw 1vw 3vw;
+    border-radius: 10vw 10vw 10vw 10vw;
+    font-size: 3vw;
+}
+
+.recicleback {
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 130vw;
+    z-index: 0;
+}
+
+
+@media screen and (min-width:1728px) {
+    .txtreu::before {
+        content: "";
+        position: absolute;
+        top: 105vw;
+        bottom: -10px; 
+        left: -10px;
+        right: -10px;
+        background-image: url(img/weu.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        z-index: -1;
+        padding-bottom: 90vw;
+    }
+
+}

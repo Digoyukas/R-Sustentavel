@@ -1,0 +1,73 @@
+.banner {
+    font-family: var(--fonte);
+    padding-top: 115px;
+    padding-left: 8vw;
+    display: flex;
+}
+.banner_tit {
+
+    font-weight: 800;
+    font-size: 5vw;
+    text-align: left;
+    font-family: var(--fonte);
+    color: var(--cabcor);
+}
+
+.banner_txt {
+    font-weight: 300;
+    margin-top: 1vw;
+    font-size: 3vw;
+    text-align: left;
+    position: relative;
+    letter-spacing: 0.2vw ;
+}
+
+.passos {
+    padding-top: 4.5vw;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 3vw;
+
+}
+
+.folha {
+    width: 38vw;
+    position: absolute;
+    top: 90px;
+    left: 62%;
+}
+
+.frase {
+
+    position: relative;
+    text-align: center;
+    padding-top: 20%;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 3.5vw;
+    font-weight: 800;
+    font-style: italic;
+    color: var(--cabcor);
+
+    }
+
+.won {
+    width: 100vw;
+    position: absolute;
+    top: 53vw;
+}
+
+@media screen and (min-width:1728px) {
+    .won {
+        width: 100vw;
+        position: absolute;
+        top: 30vw;
+    }
+}
+
+@media screen and (min-width:728px) {
+    .won {
+        width: 100vw;
+        position: absolute;
+        top: 35vw;
+    }
+}

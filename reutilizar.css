@@ -1,0 +1,80 @@
+.reutilize
+
+.reutilizeph {
+    position: absolute;
+    top: 675vw;
+    width: 100vw;
+    z-index: -1;
+}
+.reutilizetit {
+    margin-top: 80vw;
+    margin-left: 23vw;
+    margin-bottom: 7vw;
+    font-size: 8vw;
+    font-weight: 900;
+
+}
+.reutilizetxt {
+    text-align: center;
+    right: 0.5vw;
+    position: relative;
+    font-size: 3.3vw;
+    font-weight: 500;
+    margin-bottom: 4vw;
+    letter-spacing: 0.1vw;
+}
+
+.pensouph {
+    position: absolute;
+    top: 818vw;
+    width: 85vw;
+    left: 7vw;
+    z-index: -1;
+}
+.pensoutxt {
+    position: relative;
+    text-align: center;
+    margin-top: 15vw;
+    margin-bottom: 15vw;
+    letter-spacing: 0.1vw;
+    font-size: 4vw;
+    font-weight: 900;
+}
+
+
+.uptit {
+    position: relative;
+    text-align: left;
+    left: 10vw;
+    margin-top: 5vw;
+    font-size: 4vw;
+    font-weight: 800;
+}
+.uptxt {
+    position: relative;
+    text-align: left;
+    left: 10vw;
+    font-size: 3vw;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.reutp {
+    position: absolute;
+    top: 650vw;
+}
+
+@media screen and (min-width:1728px) {
+    .reutilizetit {
+        margin-top: 110vw;
+        margin-left: 23vw;
+        margin-bottom: 7vw;
+        font-size: 8vw;
+        font-weight: 900;
+    
+    }
+    .reutp {
+        position: absolute;
+        top: 720vw;
+    }
+}

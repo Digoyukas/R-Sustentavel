@@ -1,0 +1,101 @@
+.ambiente {
+    color: var(--cabcor);
+}
+
+.reduzirph {
+
+    position: absolute;
+    width: 100vw;
+    top: 440vw;
+    left: 0;
+}
+
+.reduzirtit {
+    position: relative;
+    text-align: right;
+    font-size: 8vw;
+    font-weight: 800;
+    margin-top: 58vw;
+    left: -33vw;
+    margin-bottom: 3vw;
+    color: var(--cabcor);
+}
+
+.reduzirtxt {
+    text-align: center;
+    font-weight: 500;
+    font-size: 3vw;
+    margin-top: 5vw;
+}
+
+.redfirst {
+    margin-top: 7vw
+
+}
+.acoesph {
+    z-index: -1;
+    position: absolute;
+    width: 70vw;
+    top: 565vw;
+    left: 15vw;
+}
+
+.acoestxt {
+    text-align: center;
+    font-weight: 800;
+    font-size: 3.5vw;
+    margin-top: 13vw;
+}
+.redtp {
+    position: absolute;
+    top: 450vw;
+}
+
+
+
+.consumotit {
+    position: relative;
+    margin-top: 2%;
+    text-align: left;
+    left: 15vw;
+    font-weight: 700;
+    font-size: 3.5vw;
+    margin-top: 3vw;
+}
+
+.consumotxt {
+    position: relative;
+    text-align: left;
+    left: 15vw;
+    font-weight: 500;
+    font-size: 3vw;
+    margin-top: 1vw;
+} 
+  .consumofirst {
+   position: relative;
+    margin-top: 13 !important; 
+    padding-top: 13vw;
+    text-align: left;
+    left: 15vw;
+    font-weight: 700;
+    font-size: 3.5vw;
+
+}
+
+@media screen and (min-width:1728px) {
+    .reduzirph {
+
+        position: absolute;
+        width: 100vw;
+        top: 411vw;
+        left: 0;
+    }  
+    .acoesph {
+        z-index: -1;
+        position: absolute;
+        width: 70vw;
+        top: 535vw;
+        left: 15vw;
+    }
+
+}   

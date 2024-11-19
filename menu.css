@@ -1,0 +1,109 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: var(--cabcor);
+    position: fixed;
+    top: 0px;
+    left: 0;
+}
+
+
+.logo {
+    width: 39px;
+    text-align: center;
+    padding: 20px 90vw 20px 25px;
+}
+
+.lista-menu {
+    left: 60%;
+    display: none;
+    position: absolute;
+    width: 30vw;
+    top: 80px;
+    background-image: url(img/tabelinha.png);
+    background-size: 40vw;
+    font-weight: 800;
+    font-size: 4vw;
+    padding-right: 10vw;
+}
+
+
+
+.lista-menu__link {
+    background: var(--fundo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.container__menu {
+    padding: 30px 75px 20px 20px;
+    background-image: url(img/menu.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    width: 10px;
+}
+
+
+.container__botao {
+    display: none;
+}
+
+.reduzir {
+    padding-left: 6vw;
+    padding-top: 3vw;
+}
+.reutilizar {
+    padding-left: 6vw;
+    padding-top: 6vw;
+}
+.reciclar {
+    padding-left: 6vw;
+    padding-top: 6vw;
+    padding-bottom: 3.6vw;
+}
+.redes {
+    padding-left: 6vw;
+    padding-top: 5.5vw;
+    padding-bottom: 2.7vw;
+}
+
+@media screen and (min-width:1728px) {
+    .logo {
+        width: 39px;
+        text-align: center;
+        padding: 20px 97vw 20px 25px;
+    }
+}
+@media screen and (min-width:1400px) {
+    .logo {
+        width: 40px;
+        text-align: center;
+        padding: 20px 97vw 20px 25px;
+    }
+}
+@media screen and (min-width:700px) {
+    .logo {
+        width: 38px;
+        text-align: center;
+        padding: 20px 97vw 20px 25px;
+    }
+}
+@media screen and (min-width:2400px) {
+    .logo {
+        width: 42px;
+        text-align: center;
+        padding: 20px 97vw 20px 25px;
+    }
+}

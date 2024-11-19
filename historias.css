@@ -1,0 +1,221 @@
+.historia {
+    text-align: center;
+}
+.conheca {
+    padding-top: 4em;
+    position: relative;
+    font-weight: 700;
+    font-size: 5vw;
+    color: var(--fundo);
+}
+@media screen and (min-width: 500px) {
+    .conheca {
+        padding-top:  6em;
+        position: relative;
+        font-weight: 700;
+        font-size: 5vw;
+        color: var(--fundo);
+    }
+}
+@media screen and (min-width: 728px) {
+    .conheca {
+        padding-top: 8em;
+        position: relative;
+        font-weight: 700;
+        font-size: 5vw;
+        color: var(--fundo);
+    }
+}
+
+.foia  {
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 263vw;
+
+}
+
+.conhecatxt {
+    position: relative;
+    font-size: 3vw;
+    font-weight: 400;
+    margin-bottom: 3vw;
+    color: var(--fundo);
+}
+
+.phana{
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 290vw;
+}
+.ana{
+
+    position: relative;
+    font-size: 5vw;
+    font-weight: 800;
+    right: 23vw;
+    margin-top: 35vw;
+    margin-bottom: 3vw;
+    color: var(--cabcor);
+}
+.yana{
+    position: relative;
+    font-size: 4vw;
+    font-weight: 600;
+    right: 22vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    color: var(--cabcor);
+}
+.txtana{
+    position: relative;
+    font-size: 3vw;
+    font-weight: 500;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    color: var(--cabcor);
+}
+
+
+
+
+.phmari{
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 370vw;
+    z-index: -1;
+}
+.mari{
+    position: relative;
+    font-size: 5vw;
+    font-weight: 800;
+    left: 20vw;
+    margin-top: 37vw;
+    margin-bottom: 3vw;
+
+    color: var(--cabcor);
+}
+.ymari{
+    position: relative;
+    font-size: 4vw;
+    font-weight: 600;
+    left: 20vw;
+
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    color: var(--cabcor);
+}
+.txtmari {
+    position: relative;
+    font-size: 3vw;
+    font-weight: 500;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    color: var(--cabcor);
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:1728px) {
+    .conheca {
+        padding-top: 13vw;
+        position: relative;
+        font-weight: 700;
+        font-size: 5vw;
+        color: var(--fundo);
+    }
+    
+    .foia  {
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        top: 230vw;
+    
+    }
+    
+    .conhecatxt {
+        position: relative;
+        font-size: 3vw;
+        font-weight: 400;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        color: var(--fundo);
+    }
+
+    .phana{
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        top: 260vw;
+    }
+    .ana{
+    
+        position: relative;
+        font-size: 5vw;
+        font-weight: 800;
+        right: 23vw;
+        margin-top: 40vw;
+        margin-bottom: 3vw;
+        color: var(--cabcor);
+    }
+    .yana{
+        position: relative;
+        font-size: 4vw;
+        font-weight: 600;
+        right: 22vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        color: var(--cabcor);
+    }
+    .txtana{
+        position: relative;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-top: 5vw;
+        margin-bottom: 3vw;
+        color: var(--cabcor);
+    }
+    
+    
+    
+    
+    .phmari{
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        top: 340vw;
+    }
+    .mari{
+        position: relative;
+        font-size: 5vw;
+        font-weight: 800;
+        left: 25vw;
+        margin-top: 33vw;
+        margin-bottom: 3vw;
+        color: var(--cabcor);
+    }
+    .ymari{
+        position: relative;
+        font-size: 4vw;
+        font-weight: 600;
+        left: 25vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        color: var(--cabcor);
+    }
+    .txtmari {
+        position: relative;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-top: 5vw;
+        margin-bottom: 3vw;
+        color: var(--cabcor);
+    }
+}

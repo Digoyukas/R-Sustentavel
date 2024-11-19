@@ -1,0 +1,333 @@
+.recicle {
+    color: var(--cabcor);
+
+}
+
+.recicleph {
+    position: absolute;
+    top: 970vw;
+    width: 100vw;
+    z-index: -1;
+}
+.recicletit {
+    position: relative;
+    margin-top: 80vw;
+    margin-bottom: 9vw;
+    font-size: 9vw;
+    font-weight: 900;
+    text-align: center;
+}
+.recicletxt{ 
+    position: relative;
+    margin-top: 5vw;
+    font-size: 3.5vw;
+    font-weight: 500;
+    text-align: center;
+    word-spacing: 0.1vw;
+}
+
+.descarteph {
+    position: absolute;
+    left: 5vw;
+    top: 1125vw;
+    width: 90vw;
+    z-index: -1;
+}
+.descartetxt {
+    position: relative;
+    margin-top: 15vw;
+    margin-bottom: 9vw;
+    font-size: 4.5vw;
+    font-weight: 800;
+    text-align: center;
+    word-spacing: 0.1vw;
+}
+
+.limpetit {
+    position: relative;
+    text-align: left;
+    left: 7vw;
+    margin-top: 5vw;
+    font-size: 4vw;
+    font-weight: 800;
+}
+.limpetxt {
+    position: relative;
+    text-align: left;
+    margin-top: 1vw;
+    left: 7vw;
+    font-size: 3.5vw;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.comoph {
+    position: absolute;
+    left: 5vw;
+    top: 1207vw;
+    width: 90vw;
+    z-index: -1;
+}
+.comotit{ 
+    position: relative;
+    margin-top: 11.5vw;
+    margin-bottom: 9vw;
+    font-size: 4.5vw;
+    font-weight: 800;
+    text-align: center;
+    word-spacing: 0.1vw;
+}
+.comotxt {
+    position: relative;
+    text-align: center;
+    top: 3vw;
+    font-size: 3.5vw;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin-bottom: 10vw;
+}
+
+.azulph {
+    position: absolute;
+    width: 30%; 
+    top: 1265vw;
+    left: 12vw;
+    z-index: -1;
+}
+
+.azulfun {
+    position: absolute;
+    width: 98%;
+    top: 1265vw;
+    left: 2vw;
+    overflow-x: hidden;
+    z-index: -2;
+}
+
+.azul {
+    position: relative;
+    margin-top: 25vw;
+    margin-left: 47vw;
+    font-size: 7vw;
+    font-weight: 800;
+    color: #303c44 !important;
+}
+
+.azultxt {
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 47vw;
+    font-size: 3vw;
+    font-weight: 600;
+    word-spacing: 0.1vw;
+}
+
+
+
+
+
+.amareloph {
+    position: absolute;
+    width: 30%; 
+    top: 1310vw;
+    right: 12vw;
+    z-index: -1;
+}
+.amarelofun {
+    position: absolute;
+    width: 98%;
+    top: 1310vw;
+    right: 2vw;
+    overflow-x: hidden;
+    z-index: -2;
+}
+.amarelo {
+    position: relative;
+    margin-top: 25vw;
+    margin-left: 12vw;
+    font-size: 7vw;
+    font-weight: 800;
+    color: #C98D34 !important;
+}
+.amarelotxt {
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 12vw;
+    font-size: 3vw;
+    font-weight: 600;
+    word-spacing: 0.1vw;
+}
+
+
+
+
+.verdeph {
+    position: absolute;
+    width: 30%; 
+    top: 1355vw;
+    left: 12vw;
+    z-index: -1;
+}
+.verdefun {
+    position: absolute;
+    width: 98%;
+    top: 1355vw;
+    left: 2vw;
+    overflow-x: hidden;
+    z-index: -2;
+}
+.verde {
+    position: relative;
+    margin-top: 25vw;
+    margin-left: 47vw;
+    font-size: 7vw;
+    font-weight: 800;
+    color: #30391E !important;
+}
+.verdetxt {
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 47vw;
+    font-size: 3vw;
+    font-weight: 600;
+    word-spacing: 0.1vw;
+}
+
+
+
+
+.vermelhoph {
+    position: absolute;
+    width: 30%; 
+    top: 1400vw;
+    right: 12vw;
+    z-index: -1;
+}
+.vermelhofun {
+    position: absolute;
+    width: 98%;
+    top: 1400vw;
+    right: 2vw;
+    overflow-x: hidden;
+    z-index: -2;
+}
+.vermelho {
+    position: relative;
+    margin-top: 31vw;
+    margin-left: 12vw;
+    font-size: 7vw;
+    font-weight: 800;
+    color: #7B2820;
+}
+.vermelhotxt {
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 12vw;
+    font-size: 3vw;
+    font-weight: 600;
+    word-spacing: 0.1vw;
+}
+
+
+
+
+.laranjaph {
+    position: absolute;
+    width: 30%; 
+    top: 1445vw;
+    left: 12vw;
+    z-index: -1;
+}
+.laranjafun {
+    position: absolute;
+    width: 98%;
+    top: 1445vw;
+    left: 2vw;
+    overflow-x: hidden;
+    z-index: -2;
+}
+.laranja {
+    position: relative;
+    margin-top: 28vw;
+    margin-left: 47vw;
+    font-size: 7vw;
+    font-weight: 800;
+    color: #A94B25 !important;
+}
+.laranjatxt {
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 47vw;
+    font-size: 3vw;
+    font-weight: 600;
+    word-spacing: 0.1vw;
+}
+
+
+
+
+
+.cinzaph {
+    position: absolute;
+    width: 30%; 
+    top: 1490vw;
+    right: 12vw;
+    z-index: -1;
+}
+.cinzafun {
+    position: absolute;
+    width: 98%;
+    top: 1490vw;
+    right: 2vw;
+    overflow-x: hidden;
+    z-index: -2;
+}
+.cinza {
+    position: relative;
+    margin-top: 25vw;
+    margin-left: 12vw;
+    font-size: 7vw;
+    font-weight: 800;
+    color: #474341;
+}
+.cinzatxt {
+    position: relative;
+    margin-top: 2vw;
+    margin-left: 12vw;
+    font-size: 3vw;
+    font-weight: 600;
+    word-spacing: 0.1vw;
+}
+
+
+.useph {
+    position: absolute !important;
+    width: 100vw; 
+    top: 1530vw;
+    left: 0vw;
+    z-index: -1;
+}
+
+.redes {
+    position: relative;
+    text-align: center;
+    color: var(--fundo);
+    left: -4vw;
+}
+
+.use {
+    padding-top: 23vw;
+    margin-bottom: 1.5vw;
+    font-size: 3vw;
+    font-weight: 400;
+}
+.usetit {
+    font-size: 5vw;
+    font-weight: 800;
+    word-spacing: 0.3vw;
+}
+
+.usetxt {
+    font-size: 3.5vw;
+    font-weight: 300;
+}
